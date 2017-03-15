@@ -1,0 +1,26 @@
+
+.page.page-full{padding:0;background-color:#fff}#content.fixed,#content.fixed .page,#content.fixed
+.page-full{overflow:hidden;height:100%}#content.fixed 
+
+
+.page-dashboard .panel{margin-bottom:0}
+.page-dashboard .panel-body--dashboard{padding-bottom:0;position:relative}
+.page-dashboard .music-genres-listing .list-item__image{min-height:160px}
+
+.page-dashboard .dashboard-banner{padding-top:80px;padding-bottom:80px;background:url(img/cover.jpg) 0/cover;text-align:center;position:relative;border-bottom:5px solid #dedede}
+.page-dashboard .dashboard-banner:before{content:"";position:absolute;left:0;top:0;width:100%;height:100%;display:block;background:rgba(62,62,62,.7)}
+.page-dashboard .dashboard-banner .dashboard-banner__content{color:#fff;max-width:60%;margin:auto;position:relative}.page-dashboard .dashboard-banner 
+.dashboard-banner__content>h2{margin-bottom:20px}.page-dashboard .dashboard-banner .dashboard-banner__content>h5{line-height:22px;margin-bottom:20px}
+.page-dashboard .tabs-actions{position:absolute;right:40px;top:40px}.page-dashboard .tabs-actions>i{color:#dedede;font-size:20px;margin-right:10px}
+.page-dashboard .chat-bar{display:none}.page-dashboard .chat-bar.visible{display:table-cell}
+
+.two-column .inner-page{background:#fff;padding:0}@media (min-width:768px){.two-column{display:table;table-layout:fixed;border-spacing:0;width:100%}
+.two-column aside,.two-column>section{display:table-cell;vertical-align:top;height:100%;float:none}
+.two-column .aside{width:200px;background:#E8E8E8;position:relative}.two-column .aside .aside-inner-fixed{position:absolute;top:0;bottom:80px;display:block;width:100%}}
+ .inner-page{position:absolute;top:0;padding-bottom:80px;display:block}
+
+.page-dashboard .dashboard-banner:before{content:"";position:absolute;left:0;top:0;width:100%;height:100%;display:block;background:rgba(62,62,62,.7)}
+.page-dashboard .dashboard-banner .dashboard-banner__content{color:#fff;max-width:60%;margin:auto;position:relative}
+.page-dashboard .dashboard-banner .dashboard-banner__content>h2{margin-bottom:20px}
+.page-dashboard .dashboard-banner .dashboard-banner__content>h5{line-height:22px;margin-bottom:20px}
+.page-dashboard .tabs-actions{position:absolute;right:40px;top:40px} 

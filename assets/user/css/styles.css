@@ -1,0 +1,81 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	overflow: hidden;
+}
+
+h1 {
+	font-family: 'Poiret One', cursive;
+	color: white;
+	text-align: center;
+}
+
+p {
+	color: white;
+	font-family: 'Poiret One', cursive;
+}
+.sidebar {
+	position: absolute;
+	width: 80px;
+	height: 100%;
+	background: #2B2B38;
+	color: #fff;
+	outline: 1px solid #2a2a2a;
+
+}
+
+.sidebar h2 {
+	text-align: center;
+	margin: 0;
+	padding: 10px;
+	background: #2a2a2a;
+}
+
+.sidebar ul {
+	list-style: none;
+	padding: 0;
+	margin: 10em 0;
+}
+
+.sidebar li {
+	outline: 1px solid #2a2a2a;
+	transition: all 0.3s;
+	margin: 2em 0;
+}
+
+.sidebar li span:hover {
+	color: rgba(255,217,0, 0.95);
+}
+
+
+.sidebar a {
+	color: #fff;
+	display: block;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.contenido {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: #fff;
+	
+	padding: 30px;
+	transition: all 0.3s;
+	box-sizing: border-box;
+}
+
+.menu-bar {
+	cursor: pointer;
+}
+
+.avatar-user {
+	position: absolute;
+	left: 20%;
+	margin-top: 4em;
+}
+.abrir {
+	transform: translateX(80px);
+}

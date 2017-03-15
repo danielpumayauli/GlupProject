@@ -1,0 +1,402 @@
+/
+
+* { 
+  margin: 0;
+  padding: 0;
+ }
+
+/*fondo de la pagina*/
+ body {
+    background-image: url(img/bg.jpg);
+  margin: 0;
+  font-family: sans-serif; 
+ }
+/* Cuerpo del LOGIN
+#caja {
+  border-radius: 10px;
+  margin: 130px;
+  width: 45%;
+  max-width: 215px;
+  background: rgb(255,255,255);
+  padding: 15px;
+  position: absolute;
+  top: 30px;
+  left: -30px;
+}
+*//*
+#caja {
+  border-radius: 10px;
+  margin: 130px;
+  width: 45%;
+  max-width: 300px;
+  background: rgb(255,255,255);
+  padding: 15px;
+  position: absolute;
+  top: 10em;
+  left: 10em;
+} */
+
+ #caja {
+
+  margin: 0 auto;
+  padding: 15px;
+  left: 0;
+  position: relative;
+  right: 0;
+  min-width: 200px;
+  width: 150px;
+  max-width: 215px; 
+  height: 400px;
+  background: tomato;
+  /*top: 14em;*/
+}
+.navegacion{
+    width: 35em;
+    max-width: 1000px;
+    min-width: 25em;
+    margin: 0 auto;
+    padding: 1em 0;
+}
+.content-input {
+  width: 100%;
+  background-color: pink;
+}
+input[type="search"]{
+    border: none;
+    padding: 10px;
+    width: 100% !important;
+}
+#inputBusqueda{
+    font: 16px/1.6 Helvetica, sans-serif;
+    color: #686868;
+    padding: 4px 4px 4px 46px;
+    border-radius: 0;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    box-shadow: none; 
+    outline: 0;
+    margin: 0;
+    background: url(../img/icon-search.svg) no-repeat 12px 7px;
+    vertical-align: center;
+    background-color: rgba(255,255,255,0.6);
+}
+/* El encabezado de la Frase
+ h1{
+  font-size: 50px;
+}
+
+El subtitulo
+
+h3{
+  margin: 1em;
+  font-size: 27px;
+  position: absolute;
+  top: 50px;
+  left: -60px;
+}
+*/
+h1{
+  font-size: 50px;
+
+}
+
+h3{
+  margin: 2em 1em;
+  font-size: 27px;
+  position: absolute;
+  top: 50px;
+  left: -60px;
+}
+
+/* Input es el contenido del Login
+"NOMBRE DE USUARIO"
+"CONTRASEÑA"
+*/
+
+input {
+  display: block;
+  padding: 8px;
+  width: 92%;
+  margin:11px 0;
+  font-size: 12px;
+  border: none;
+  border-bottom: 1px solid #D6D6D6;
+  background-color: purple;
+}
+form {
+  background-color: green;
+}
+
+/*Esto es de los botones 
+"INICIE SESION"
+"REGISTRARSE"
+
+*/
+input[type="submit"] {
+  background: rgba(255,217,0, 0.95);
+  color: black;
+  width: 100%;
+  font-family: "kanit";
+  font-size: 13px;
+  height: 35px;
+  margin: 10px auto;
+  border:none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+input:hover {
+  background-color: #F0F0F0;
+   }
+input[type="submit"]:hover {
+  background: #FFBC00;
+}
+/*BOTONES DE INFORMACION EN LA PARTE SUPERIOR DE LA PAGINA
+#boton1 "Ayuda"
+#boton2 "Equipo"
+#boton3 "Prensa"
+*/
+#boton1, #boton2, #boton3 {
+   background: #fff;
+   color: #474747;
+   /*height: 27px;*/
+   float: right;
+   border: none;
+   font-size: 5;
+   top: 5px;
+   position: absolute;
+   border-radius: 2px;
+   cursor: pointer;
+   }
+#boton1{  
+  width: 70px;
+  right: 218px;
+}
+
+#boton2 {
+  width: 110px;
+  right: 107px;
+}
+
+#boton3{
+  width: 101px;
+  right: 5px;
+}
+
+.logo {
+  background-color: red;
+  position: relative;
+  display: block;
+  width: 230px;
+  margin: 80px auto;
+}
+#caja a{
+  color: #fff;
+  text-decoration: none;
+  font-size: .8em;
+  float: right;
+}
+/*Estilos para el copyright*/
+.copyright {
+    position: absolute;
+    color:#fff; 
+    text-align: center;
+    /*position: absolute; */
+    bottom: 0;
+    width: 100%;
+}
+footer {
+  width: 100%;
+  height: 50px;
+  /*position: relative;*/
+  position: absolute;
+  bottom: 0
+
+}
+.container-flex {
+    margin: 0 2em ;
+    display: -webkit-flex; /* Safari */
+    -webkit-justify-content: space-around; /* Safari 6.1+ */
+    display: flex;
+    justify-content: space-between;
+}
+.container-flex a{
+    color: #fff;
+    text-decoration: none;
+}
+.main-flex {
+    margin: 1em 0 1em;
+    display: -webkit-flex; /* Safari */
+    -webkit-justify-content: space-around; /* Safari 6.1+ */
+    display: flex;
+    justify-content: space-around;
+    min-width: 300px;
+}
+.main-flex a:before {
+   font-family: 'FontAwesome';
+    content: '\025cf  ';
+}
+/*cuerpo de la frase*/
+/*.Eslogan {
+  color: white;
+  font-family: "fira sans";
+  position: absolute;
+  top: 14em;
+  right: 2em;
+}*/
+      /*/.Eslogan {*/
+      /*/ left: 0;*/
+      /*/ position: absolute;*/
+      /*/ right: 0;*/
+      /*/ text-align: center;*/
+      /*/ top: 5em;*/
+      /*/ background-color: pink;*/
+      /*/ }*/
+      /*/ .Eslogan img{*/
+      /*/   width: 20%;*/
+      /*/ }*/
+  /*
+  .Eslogan img{
+    width: 20%;
+  }*/
+/*Definición de las media query*/
+
+/*Estilos para tamaño web*/
+@media only screen and (max-width: 1700px) {
+   h1 {
+    font-size: 42px !important;
+  }
+  h3 {
+    margin: 1.5em 1em;
+    font-size: 24px;
+    left: 0;
+    right: 0;
+  }
+
+.logo {
+  background-color: yellow;
+  margin: 40px auto;
+  width: 230px;
+}
+
+  #caja {    
+    position: relative;
+    background: orange;
+    margin: 0 auto;
+ }
+  #caja {
+    min-width: 200px;
+    width: 150px;
+    max-width: 215px;
+
+ }
+@media only screen and (max-width: 1200px) {
+  h1 {
+    font-size: 40px !important;
+  }
+  h3 {
+    font-size: 24px;
+  }
+
+ 
+.logo {
+  background-color: blue;
+  margin: 20px auto;
+  width: 230px;
+}
+#caja {
+  height: 300px;
+  background-color: red;
+}
+
+.container-flex a{
+    font-size: 10px;
+}
+/*Estilos para tamaño tablet*/
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 30px !important;
+  }
+
+  h3 {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+
+ .img-responsive {
+   max-width: 100%;
+ }
+  /* .Eslogan {
+  position: absolute;
+  margin: 0 auto;
+  text-align: center;
+  top: 5em;
+  background-color: blue;
+  width: 250px;
+  max-width: 330px;
+  }*/
+.logo {
+  background-color: purple;
+  margin: 20px auto;
+  width: 200px;
+}
+#caja {
+  height: 200px;
+}
+.container-flex {
+    margin: 2em 2em 1em;
+    display: inline;
+  }
+.main-flex {
+    margin: 3em 0;
+    display: -webkit-flex; /* Safari */
+    -webkit-justify-content: space-around; /* Safari 6.1+ */
+    display: flex;
+    justify-content: space-around;
+}
+.container-flex a{
+    font-size: 10px;
+}
+
+/*Estilos para tamaño movil*/
+@media only screen and (max-width: 360px) {
+  h1 {
+    font-size: 28px !important;
+    min-width: 260px;
+  }
+  h3 {
+    font-size: 16px;
+    min-width: 220px;
+  }
+
+.logo {
+  background-color: red;
+  margin: 20px auto;
+  width: 200px;
+}
+
+
+.container-flex a{
+    font-size: 8px;
+}
+}
+/*Imagenes Responsive*/
+/*
+.center-block {
+  letter-spacing: 0.07em;
+  margin-bottom: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+*/
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
